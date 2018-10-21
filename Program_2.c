@@ -5,7 +5,7 @@
 int main()
 {
     int x, space, rows, z=0,val,sp,sb,y,n;
-    int lisz[]={'A', '0', 'B', '0', '0', 'C' , 'D'  };
+    int lisz[]={'A', '0', 'B', '0', '0', 'C' , 'D'  }; //Level Ordered List
      n = sizeof(lisz);
      n = n/sizeof(int);
     //printf("size is : %d\n",n);
@@ -23,7 +23,7 @@ int main()
       if(val==1){
            sp = sp/2;
         for(y=1;y<=sp;y++){
-            printf("*");
+            printf(" ");
             
         }
        }
